@@ -18,3 +18,9 @@
 ### Architectural Evolution:
 
 - Transitioning to the **MVVM (Model-View-ViewModel)** framework, embracing its strengths in facilitating a reactive, data-driven user interface that's easily testable. This model supports our commitment to TDD by ensuring the isolation of logic and UI, improving the management of dynamic content such as live data feeds in administrative panels.
+
+
+### Code Reusability and Testing:
+
+- **Leveraging Existing Assets:** Optimize development time by repurposing and adapting code from our hackathon efforts. This includes updating our previous views to be compatible with new ViewModels and retaining old models as observables within the new architecture.
+- **Rigorous Testing Protocol:** Before integrating any new features, a comprehensive testing regimen will be implemented. This entails developing extensive test cases to ensure broad coverage of both existing and new functionalities. Any discrepancies found will prompt immediate code refactoring, maintaining our commitment to quality and reliability.
