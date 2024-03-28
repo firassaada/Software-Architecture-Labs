@@ -7,6 +7,17 @@
 
   ![image](https://github.com/firassaada/Software-Architecture-Labs/assets/94303698/8b1be765-ce28-441f-921b-7ad35e1f7b8a)
 
+ ## Advantages:
+        Allows for easier testing and maintenance of individual components.
+        Promotes reusability of components.
+
+ ## Disadvantages:
+        Can result in tight coupling between View and Controller.
+        Complex navigation and state management might be challenging.
+
+ ## Use Cases:
+        Well-suited for traditional web applications with server-side rendering.
+        Suitable for applications with simpler UI logic and navigation flows.
 # MVC :
 
   Model: Same as in MVP, represents the data and business logic.
