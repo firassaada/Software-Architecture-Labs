@@ -8,16 +8,16 @@
   ![image](https://github.com/firassaada/Software-Architecture-Labs/assets/94303698/8b1be765-ce28-441f-921b-7ad35e1f7b8a)
 
 ## Advantages:
-        Similar to MVC but with a passive View, reducing the risk of Massive View problem.
-        Improved testability as business logic is separated into Presenter.
+        *Similar to MVC but with a passive View, reducing the risk of Massive View problem.
+        *Improved testability as business logic is separated into Presenter.
 
  ## Disadvantages:
-        Still prone to some degree of coupling between View and Presenter.
-        Requires more code compared to MVC.
+        *Still prone to some degree of coupling between View and Presenter.
+        *Requires more code compared to MVC.
 
  ## Use Cases:
-        Commonly used in desktop and web applications where there's a need for a clear separation between UI and business logic.
-        Suitable for applications with complex UI logic and interactions.
+        *Commonly used in desktop and web applications where there's a need for a clear separation between UI and business logic.
+        *Suitable for applications with complex UI logic and interactions.
 
 # MVC :
 
@@ -48,15 +48,15 @@
 ![image](https://github.com/firassaada/Software-Architecture-Labs/assets/94303698/fd809734-d5af-41da-a599-35cc8e94fd5e)
 
 ## Advantages:
-        Enables a clear separation between UI and business logic.
-        Facilitates two-way data binding, reducing the need for manual updates to the UI.
+        *Enables a clear separation between UI and business logic.
+        *Facilitates two-way data binding, reducing the need for manual updates to the UI.
    
 ## Disadvantages:
-        Can introduce a steep learning curve, especially for developers new to reactive programming.
-        Overuse of data binding can lead to performance issues.
+        *Can introduce a steep learning curve, especially for developers new to reactive programming.
+        *Overuse of data binding can lead to performance issues.
    
 ## Use Cases:
-        Widely used in modern web and mobile applications, especially those built with frameworks like Angular or React Native.
-        Suitable for applications with dynamic UIs and complex data manipulation requirements.
+        *Widely used in modern web and mobile applications, especially those built with frameworks like Angular or React Native.
+        *Suitable for applications with dynamic UIs and complex data manipulation requirements.
 
 
