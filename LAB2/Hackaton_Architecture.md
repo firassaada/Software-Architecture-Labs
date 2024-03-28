@@ -15,5 +15,7 @@
     *Vaccine Information:
     *User Authentication
     *Error Handling:
+
+  Here's how we can design the EVAX platform using PlantUML with the MVP architecture :
   
   ![image](https://github.com/firassaada/Software-Architecture-Labs/assets/94303698/26f34234-c851-4c17-87b3-20bb096533dd)
