@@ -25,3 +25,14 @@ and resilience required for building a complex Forecast and Planning application
 ## Security:
 - Auth Microservice: Centralizes authentication and potentially authorization functions, which simplifies security management by isolating security mechanisms from business logic services.
 - API Gateway: Acts as the security layer that can enforce SSL/TLS, authenticate API requests, and prevent direct external access to backend services, reducing the attack surface.
+# 4) Propose Some Key Technologies to Use and Explain Why
+## Kubernetes:
+Why: It automates the deployment, scaling, and operations of application containers across clusters of hosts. Kubernetes excels in managing microservices due to its robust orchestration capabilities, including load balancing, service discovery, and self-healing.
+## Docker:
+Why: Containerization technology that encapsulates a microservice and its dependencies in a container image. This promotes consistency across development, testing, and production environments, enhancing the reliability and portability of microservices.
+## API Gateway (e.g., Kong, Amazon API Gateway):
+Why: Manages all incoming API requests and routes them to the correct microservices. It can handle security concerns such as authentication and rate limiting, and improve performance through caching.
+## OAuth2 and JWT:
+Why: OAuth2 provides a robust authorization framework, which is crucial for services dealing with sensitive data or requiring user authentication. JWT is used for securely transmitting information between parties as JSON objects, allowing for stateless authentication.
+## PostgreSQL/MySQL:
+Why: These relational databases offer strong consistency, reliability, and support for complex queries with transactional integrity, which is essential for services like the Forecast and Planning microservices that handle significant data operations.
