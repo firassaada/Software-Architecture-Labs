@@ -17,22 +17,22 @@ and resilience required for building a complex Forecast and Planning application
 
 # 3) Emphasize the design choices for every non functional requirement and constraint.
 ## Scalability:
-- Microservices Architecture: By dividing the system into discrete services (Forecast, Planning, Auth), you ensure that each component can be scaled independently based on demand. This modularity facilitates horizontal scaling, which is adjusting the number of instances of each service according to its load.
-- API Gateway: Serves as a single point of entry that routes requests to the appropriate microservices, enabling load balancing and effective management of traffic spikes.
+- Microservices Architecture: Divides the system into specific services like Forecast, Planning, and Auth, each scalable independently, facilitating horizontal scaling.
+- API Gateway: Manages traffic via a single entry point, enhancing load balancing and traffic spike management.
 ## Availability and Reliability:
-- Kubernetes: Provides self-healing features with automatic placement, restarts, and replication of containerized applications. This ensures that services are always available and can recover quickly from hardware failures.
-- Pod Distribution: Deploying microservices in separate pods within a Kubernetes cluster ensures that failures in one service do not impact others, enhancing fault tolerance.
+- Kubernetes: Supports automatic management of containerized apps, ensuring continuous availability and quick recovery from failures.
+- Pod Distribution: Places microservices in separate pods within a Kubernetes cluster to improve fault tolerance.
 ## Security:
-- Auth Microservice: Centralizes authentication and potentially authorization functions, which simplifies security management by isolating security mechanisms from business logic services.
-- API Gateway: Acts as the security layer that can enforce SSL/TLS, authenticate API requests, and prevent direct external access to backend services, reducing the attack surface.
+- Auth Microservice: Centralizes authentication, isolating it from business logic for streamlined security management.
+- API Gateway: Adds a security layer that handles SSL/TLS, authenticates API requests, and limits direct backend access, reducing vulnerability.
 # 4) Propose Some Key Technologies to Use and Explain Why
-## Kubernetes:
-Why: It automates the deployment, scaling, and operations of application containers across clusters of hosts. Kubernetes excels in managing microservices due to its robust orchestration capabilities, including load balancing, service discovery, and self-healing.
-## Docker:
-Why: Containerization technology that encapsulates a microservice and its dependencies in a container image. This promotes consistency across development, testing, and production environments, enhancing the reliability and portability of microservices.
-## API Gateway (e.g., Kong, Amazon API Gateway):
-Why: Manages all incoming API requests and routes them to the correct microservices. It can handle security concerns such as authentication and rate limiting, and improve performance through caching.
+## Kubernetes (e.g. Amazon Elastic Kubernetes Service ) :
+Why: Automates container application operations across host clusters, ideal for microservices with features like load balancing and self-healing.
+## Docker (e.g. Amazon Elastic Container Registry ) :
+Why: Containerizes microservices ensuring consistency across all environments, which enhances reliability and portability.
+## API Gateway (e.g. Amazon API Gateway):
+Why: Routes API requests to correct microservices, handling security and performance enhancements like caching.
 ## OAuth2 and JWT:
-Why: OAuth2 provides a robust authorization framework, which is crucial for services dealing with sensitive data or requiring user authentication. JWT is used for securely transmitting information between parties as JSON objects, allowing for stateless authentication.
+Why: OAuth2 offers a secure authorization framework, crucial for sensitive data. JWT facilitates secure, stateless JSON information exchange.
 ## PostgreSQL/MySQL:
-Why: These relational databases offer strong consistency, reliability, and support for complex queries with transactional integrity, which is essential for services like the Forecast and Planning microservices that handle significant data operations.
+Why: Provides reliable, consistent database management with transactional integrity, essential for data-intensive services like Forecast and Planning.
