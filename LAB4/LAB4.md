@@ -1,5 +1,6 @@
 # LAB 4 :
 
+### Architecture  :
 Microservices architecture is ideal for this application because it allows the loan management system to be decomposed into independent services that can be developed, deployed, and scaled independently.
 Each service corresponds to a business capability enhancing the maintainability and scalability of the system.
 ### Services :
