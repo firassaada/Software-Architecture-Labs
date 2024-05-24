@@ -6,6 +6,6 @@ The course covers various topics related to software architecture principles, de
 
 ## Weekly Labs
 - **LAB 1:** Understanding and Applying SOLID Principles
-- **LAB 2:**
-- **LAB 3:**
-- **LAB 4:**
+- **LAB 2:** MV*
+- **LAB 3:** Microservices
+- **LAB 4:** Reactive Architecture
